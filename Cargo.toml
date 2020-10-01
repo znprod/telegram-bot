@@ -1,0 +1,13 @@
+[package]
+name = "znprod-telegram-bot"
+description = "Rust advocate telegram bot"
+version = "0.1.0"
+authors = ["ZnProd"]
+edition = "2018"
+
+[dependencies]
+teloxide = "0.3.0"
+teloxide-macros = "0.3.2"
+log = "0.4.8"
+pretty_env_logger = "0.4.0"
+tokio = { version =  "0.2.11", features = ["rt-threaded", "macros"] }
